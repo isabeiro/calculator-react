@@ -1,11 +1,12 @@
 .content {
-  background-color: var(--color-quicksand);
+  background-color: var(--color-fuscous-gray);
   padding: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 .content .operations {
@@ -17,14 +18,14 @@
 }
 
 .content .textField {
-  background-color: white;
+  background-color: var(--color-quicksand);
   border-radius: 5px;
   width: 90%;
   margin-top: 20px;
 }
 
 .content button {
-  background-color: var(--color-fuscous-gray);
+  background-color: var(--color-buccaneer);
   color: var(--color-quicksand);
   height: 45px;
   margin: 5px 15px;

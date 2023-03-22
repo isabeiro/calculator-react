@@ -1,8 +1,7 @@
 .container {
-  height: 500px;
   width: 400px;
   display: flex;
   flex-direction: column;
   border-radius: 5px;
-  background-color: var(--color-quicksand);
+  background-color: var(--color-fuscous-gray);
 }
