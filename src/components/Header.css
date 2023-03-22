@@ -1,0 +1,12 @@
+.header {
+  background-color: var(--color-ironstone);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.header h1 {
+  color: var(--color-quicksand);
+}

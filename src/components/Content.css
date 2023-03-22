@@ -1,0 +1,32 @@
+.content {
+  background-color: var(--color-quicksand);
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .operations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.content .textField {
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.content button {
+  background-color: var(--color-fuscous-gray);
+  color: var(--color-quicksand);
+  height: 45px;
+  margin: 5px 15px;
+  font-size: 22px;
+}
