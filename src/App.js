@@ -2,17 +2,16 @@ import React from 'react'
 
 import Container from './components/Container'
 import Header from './components/Header'
-import Content from './components/Content'
+import Keyboard from './components/Keyboard'
+
 
 function App() {
   return (
     <Container>
       <Header titulo="Calculadora"/>
-      <Content>
-        
-      </Content>
+      <Keyboard/>
     </Container>
   )
 }
 
-export default App;
+export default App
